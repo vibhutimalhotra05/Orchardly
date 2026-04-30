@@ -1,0 +1,23 @@
+.main-button {
+    text-align: center;
+}
+
+.main-button>.button {
+    font-family: 'Inter', sans-serif;
+    padding: 14px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.button {
+    transition: 0.3s ease-in;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #308235;
+    color: white;
+}

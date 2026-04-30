@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'inter', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.hero-section {
+    padding-bottom: 80px;
+    padding-top: 44px;
+
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        gap: 196px;
+
+        .hero-info {
+            flex-direction: column;
+            display: flex;
+
+            .hero-title {
+                h1 {
+                    line-height: 110%;
+                    font-weight: 600;
+                    font-size: 40px;
+                }
+            }
+
+            .hero-sub-heading {
+                p {
+                    padding: 24px 0;
+                    font-weight: 400;
+                    line-height: 110%;
+                    color: #828282;
+                    font-size: 24px;
+                }
+            }
+
+            .hero-price {
+                p {
+                    padding-bottom: 24px;
+                    line-height: 110%;
+                    font-size: 24px;
+                    font-weight: 400;
+                }
+            }
+
+            .hero-bodytext {
+                p {
+                    padding-bottom: 24px;
+                    line-height: 150%;
+                    font-weight: 500;
+                    font-size: 20px;
+                    color: #828282;
+                }
+            }
+
+            .main-button {
+                padding-bottom: 24px;
+
+                .button {
+                    font-weight: 500;
+                    line-height: 150%;
+                }
+            }
+
+            .hero-textbox {
+                h4 {
+                    color: #828282;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 150%;
+                }
+            }
+        }
+    }
+}
+
+.card-section {
+    padding-bottom: 121px;
+
+    .card-title {
+        padding-bottom: 24px;
+
+        h3 {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 150%;
+        }
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        display: flex;
+        gap: 57px;
+        padding-bottom: 0px;
+
+        .card {
+            padding: 0;
+            box-shadow: none;
+            background: none;
+            flex: 0 0 28.2%;
+
+            .card-img {
+                img {
+                    max-height: 244px;
+                }
+            }
+
+            .card-heading {
+                h5 {
+                    font-weight: 400;
+                    line-height: 150%;
+                    font-size: 20px;
+                }
+            }
+
+            .card-desc {
+                padding-bottom: 48px;
+
+                p {
+                    line-height: 150%;
+                    font-size: 20px;
+                    padding: 4px 0;
+                    color: #828282;
+                    font-weight: 500;
+                }
+            }
+
+            .card-price {
+                h5 {
+                    line-height: 150%;
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
