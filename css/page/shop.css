@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'inter', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1280px;
+}
+
+
+.hero-section {
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 110px;
+
+    .hero-wrapper {
+        padding: 190px 0;
+        color: white;
+        border-radius: 0px 0px 8px 8px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../../images/png/shop-watermelon.png);
+    }
+
+    .hero-title {
+        padding-bottom: 24px;
+
+        h1 {
+            letter-spacing: -2%;
+            font-weight: 700;
+            font-size: 64px;
+        }
+    }
+
+    .hero-sub-heading {
+        padding-bottom: 24px;
+
+        p {
+            font-size: 24px;
+            line-height: 150%;
+            font-weight: 400;
+        }
+    }
+
+    .main-button {
+        display: inline-block;
+        font-weight: 600;
+        line-height: 150%;
+    }
+}
+
+
+
+.image-cards {
+    .card-heading {
+        padding-bottom: 32px;
+
+        h4 {
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 110%;
+        }
+    }
+
+    .shop-cards {
+        display: flex;
+        row-gap: 32px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .card-info {
+            flex: 0 0 32.2%;
+
+            .shop-image {
+
+                img {
+                    border-radius: 8px;
+                    max-height: 244px;
+                    object-fit: cover;
+                    width: 100%;
+                }
+            }
+
+            .shop-card {
+
+                .shop-title {
+                    padding-bottom: 4px;
+
+                    h4 {
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 150%;
+                    }
+                }
+
+                .shop-desc {
+                    padding-bottom: 4px;
+
+                    p {
+                        color: #828282;
+                        line-height: 150%;
+                        font-weight: 500;
+                        font-size: 20px;
+                    }
+                }
+
+                .shop-price {
+                    font-weight: 500;
+                    line-height: 150%;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+.feature {
+    padding: 120px 0;
+
+    .product-heading {
+        padding-bottom: 32px;
+
+
+        h4 {
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 110%;
+        }
+    }
+
+    .product {
+        display: flex;
+        gap: 17px;
+        justify-content: space-between;
+
+        .left {
+
+            .product-title {
+                h4 {
+                    padding-top: 24px;
+                    font-size: 20px;
+                    line-height: 150%;
+                    font-weight: 500;
+                }
+            }
+
+            .product-desc {
+                p {
+                    font-size: 20px;
+                    line-height: 150%;
+                    font-weight: 500;
+                    color: #828282;
+                    padding: 4px 0;
+                }
+            }
+
+            .product-price {
+                font-size: 20px;
+                line-height: 150%;
+                font-weight: 500;
+            }
+        }
+
+        .right-product {
+            display: flex;
+
+            flex-direction: column;
+
+            .right-1 {
+                flex: 0 0 50%;
+
+                .right-img {
+                    img {
+                        object-fit: cover;
+                        min-width: 526px;
+                        max-height: 244px;
+                        border-radius: 8px;
+                    }
+                }
+
+                .product-title {
+                    h4 {
+                        line-height: 150%;
+                        font-size: 20px;
+                        padding-top: 24px;
+                        font-weight: 500;
+                    }
+                }
+
+                .product-desc {
+                    p {
+                        padding: 4px 0;
+                        color: #828282;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 150%;
+                    }
+                }
+
+                .product-price {
+                    p {
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 150%;
+                    }
+                }
+            }
+
+            .right-2 {
+                .right-img {
+                    img {
+                        border-radius: 8px;
+                        max-height: 244px;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .product-title {
+                    h4 {
+                        padding-top: 24px;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 150%;
+                    }
+                }
+
+                .product-desc {
+                    font-weight: 500;
+                    line-height: 150%;
+                    padding: 4px 0;
+                    color: #828282;
+                    font-size: 20px;
+                }
+
+                .product-price {
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 150%;
+                }
+            }
+        }
+    }
+}
